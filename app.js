@@ -50,5 +50,5 @@ function ayudas (opcionAyuda){  //Solicita una letra a ver si esta en la palabra
     }
    
     if (propuesta != animal[palabraAleatoria]) {
-        alert("Que pena, no lo has conseguido")
+        alert("Que pena, no lo has conseguido. El animal era: " + animal[palabraAleatoria])
     }
